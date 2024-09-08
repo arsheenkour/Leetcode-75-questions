@@ -7,8 +7,7 @@ bool isvowel(char ch)
         else
         return false;
        }
-       
-    string reverseVowels(string s) {
+       string reverseVowels(string s) {
        int start=0;
        int end=s.size()-1;
        while(start<end)
@@ -25,8 +24,7 @@ bool isvowel(char ch)
        {
         swap(s[start++],s[end--]);
        }
-      
-    }
+       }
        return s;  
     }
 };
